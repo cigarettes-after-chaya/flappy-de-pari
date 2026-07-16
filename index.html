@@ -87,13 +87,13 @@ let bird, pipes, frame, score, best, state; // state: 'ready' | 'playing' | 'dea
 // ---- Assets ----
 // Put these files in the SAME folder as index.html in your repo.
 const birdImg = new Image();
-birdImg.src = 'adnan.jpg';
+birdImg.src = 'ccb.jpg';
 
-const flapSound = new Audio('flap.mp3');
-flapSound.volume = 0.6;
+const flapSound = new Audio('flap.ogg');
+flapSound.volume = 0.8;
 
 const hitSound = new Audio('hit.mp3');
-hitSound.volume = 0.7;
+hitSound.volume = 0.9;
 
 function playFlapSound() {
   // why: cloning lets rapid taps overlap instead of cutting each other off
